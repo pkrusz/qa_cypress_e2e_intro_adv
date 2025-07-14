@@ -11,4 +11,4 @@ function generateUser() {
   return { email, password, username };
 }
 
-module.exports = { generateUser };
+export { generateUser };
